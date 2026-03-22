@@ -1,25 +1,24 @@
-# Bunjalloo
+# BunjieDS
 
-This is Bunjalloo, the open source Nintendo DS web browser. It was originally
+This is BunjieDS, the open source Nintendo DS web browser that is a derivative of Bunjalloo. The original Bunjalloo was originally
 developed by Richard Quirk until 2010. This repository contains a working fork
 that you can build with modern BlocksDS.
 
-Bunjalloo has been implemented from scratch [using the whatwg user agent design
+Bunjalloo was implemented from scratch [using the whatwg user agent design
 rules](http://www.whatwg.org/).
 
-This fork can take advantage of the additional RAM, CPU power, and WPA2 support
-of DSi. It also uses modern cryptographic libraries to support modern TLS
-protocols.
+This fork of Bunjalloo brings to the table my low-level skills and pure hope-it-works. It does feature optimizations!
 
-Bunjalloo can also be built using SDL so that it's easier to develop it and
+BunjieDS can also be built using SDL (the same way Bunjalloo can) so that it's easier to develop it and
 debug it.
 
 ## Setup
 
-In order to install it in your Nintendo DS or DSi, copy `bunjalloo.nds` to your
+In order to install it in your Nintendo DS or DSi, copy `bunjie.nds` (or whatever you named your built file, if you built it yourself) to your
 SD card. The contents of `sdroot` must be copied to the root of your SD card.
 
 ## Controls
+The controls are inherited and aim to stay the same as Bunjalloo.
 
 - A: Enter a URL.
 - B: Reload page.
